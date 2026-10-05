@@ -2,19 +2,19 @@ package main;
 
 public class Calculadora {
 
-    public double sumar(double a, double b) {
+    public static int sumar(int a, int b) {
         return a + b;
     }
 
-    public double restar(double a, double b) {
+    public static int restar(int a, int b) {
         return a - b;
     }
 
-    public double multiplicar(double a, double b) {
+    public static int multiplicar(int a, int b) {
         return a * b;
     }
 
-    public double dividir(double a, double b) {
+    public static int dividir(int a, int b) {
         if (b == 0) {
             throw new IllegalArgumentException("No se puede dividir por cero");
         }
